@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
             clearInterval(downTimerId)
             isJumping = false
           }
-          console.log('going down')
           position -= 5
           count--
           position = position * gravity
