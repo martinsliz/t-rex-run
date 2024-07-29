@@ -7,13 +7,20 @@
   }
 }
 
+h2 {
+  text-align: center;
+}
+
 #desert {
   position: absolute;
   background-image: url('t-rex-background.png');
   height: 200px;
   width: 100%;
   bottom: 0;
-  /* animation: slideright 4000s infinite linear; */
+  animation: slideright 4000s infinite linear;
+}
+.alert {
+  text-align: center;
 }
 
 .dino {
